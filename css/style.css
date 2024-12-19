@@ -1,0 +1,55 @@
+header {
+    background-image: url("../img/background_header.jpg");
+    background-repeat: no-repeat;
+    height: 1024px;
+}
+
+.header_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 810px;
+    padding-top: 47px;
+    padding-left: 122px;
+}
+
+.header_row ul {
+    font-family: Istok Web;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    line-height: 25.91px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    justify-content: space-between;
+    width: 620px;
+    padding-left: 190px;
+}
+
+.header_main {
+    display: flex;
+    align-items: center;
+}
+
+.header_main h1 {
+    color: #FFFFFF;
+    font-family: Kenia;
+    font-size: 150px;
+    font-weight: 400;
+    line-height: 150px;
+    padding-left: 115px;
+    padding-top: 291px;
+}
+
+.header_main p {
+    font-family: Istok Web;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28.79px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    padding-left: 50px;
+    padding-top: 730px;
+}
