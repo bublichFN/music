@@ -30,6 +30,7 @@ header {
 .header_main {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .header_main h1 {
@@ -38,8 +39,7 @@ header {
     font-size: 150px;
     font-weight: 400;
     line-height: 150px;
-    padding-left: 115px;
-    padding-top: 291px;
+
 }
 
 .header_main p {
@@ -50,6 +50,5 @@ header {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
-    padding-left: 50px;
-    padding-top: 730px;
+
 }
