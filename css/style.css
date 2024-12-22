@@ -69,6 +69,8 @@ header {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #FFFFFF;
+    padding-left: 122px;
+    padding-bottom: 83px;
 }
 
 .buttons_and_img {
@@ -89,6 +91,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 122px;
 }
 
 .buttons button {
@@ -102,8 +105,113 @@ header {
 
 }
 
-.wrapper {
-    display: flex;
+.main_about {
+    height: 1024px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+}
+
+.main_about h2 {
+    font-family: "Karla", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.07px;
+    color: #FFFFFF;
+    padding-left: 122px;
+    padding-top: 100px;
+}
+
+.main_about_text {
     justify-content: center;
+    display: flex;
+    font-family: "Karla", serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.07px;
+    color: #FFFFFF;
+    padding-top: 476px;
+}
+
+.main_about_text p {
+    text-align: center;
+}
+
+.main_store {
+    height: 1024px;
+    background-color: #D53005;
+    display: flex;
+    align-items: center;
+}
+
+.main_store h2 {
+    font-family: Karla;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35.07px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main_buttons {
+    display: flex;
     flex-direction: column;
+    padding-top: 136px;
+}
+
+.main_buttons button {
+    box-shadow: -4px -4px 4px 0px #FFFFFF1A;
+    box-shadow: 4px 4px 4px 0px #00000040;
+    width: 240px;
+    height: 60px;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+}
+
+.windows_button {
+    background-color: #020202E5;
+    color: #FFFFFF;
+}
+
+.mac_button {
+    background-color: #E3E3E3;
+    color: #000000;
+    margin-top: 48px;
+}
+
+.main_text_store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_text_store h3 {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 25.6px;
+    color: #FFFFFF;
+}
+
+.first_main_text_store {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.second_main_text_store {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    color: #040404CC;
+    text-decoration: underline;
+}
+.main_store_text {
+    padding-top: 135px;
 }
