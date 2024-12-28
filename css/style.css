@@ -228,8 +228,15 @@ footer {
     background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
 }
 
+.footer_wrapper {
+    display: flex;
+    justify-content: end;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
 .footer_row{
-    width: 850px;
+    width: 1000px;
     display: flex;
     justify-content: space-between;
 }
@@ -254,4 +261,5 @@ footer {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color:#FFFFFF;
+    padding-top: 20px;
 }
