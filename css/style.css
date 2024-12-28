@@ -138,13 +138,8 @@ header {
 .main_store {
     height: 1024px;
     background-color: #D53005;
-
 }
 
-.wrapper {
-    display: flex;
-    align-items: center;
-}
 
 .main_store h2 {
     font-family: Karla;
@@ -153,6 +148,8 @@ header {
     line-height: 35.07px;
     text-align: left;
     color: #FFFFFF;
+    padding-top: 83px;
+    padding-left: 122px;
 }
 
 .main_buttons {
@@ -216,6 +213,7 @@ header {
     color: #040404CC;
     text-decoration: underline;
 }
+
 .main_store_text {
     display: flex;
     flex-direction: column;
@@ -223,4 +221,37 @@ header {
     justify-content: space-between;
     height: 450px;
     padding-left: 25px;
+}
+
+footer {
+    height: 536px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+}
+
+.footer_row{
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_row ul {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}
+
+.footer_row ul li {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color:#FFFFFF;
 }
