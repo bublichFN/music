@@ -1,14 +1,12 @@
 header {
     background-image: url("../img/background_header.jpg");
     background-repeat: no-repeat;
-    height: 1024px;
 }
 
 .header_row {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 810px;
+    justify-content: space-around;
     padding-top: 47px;
     padding-left: 122px;
 }
@@ -151,6 +149,12 @@ header {
     padding-top: 83px;
     padding-left: 122px;
 }
+.main_text_store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 141px;
+}
 
 .main_buttons {
     display: flex;
@@ -180,12 +184,6 @@ header {
     margin-top: 48px;
 }
 
-.main_text_store {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 141px;
-}
 
 .main_text_store h3 {
     font-family: Montserrat;
@@ -305,4 +303,37 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 800px;
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+
+    .header_row {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        padding-top: 20px;
+    }
+
+    .header_row ul {
+        flex-direction: row;
+        padding: 0px;
+        width: 300px;
+        padding-top: 20px;
+
+    }
+
+    .header_main {
+        flex-direction: column;
+    }
+
+    .disk_img {
+        display: none;
+    }
+
+    .mackbook_img {
+        display: none;
+
+    }
+
 }
